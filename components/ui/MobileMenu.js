@@ -1,5 +1,5 @@
 import { Box, IconButton } from "@mui/material";
-import MenuIcon from "@mui/icons-material/Menu";
+import { IconMenu } from "../ui/Icons/IconMenu";
 import { Logo } from "../ui/Logo";
 
 export const MobileMenu = () => {
@@ -13,7 +13,7 @@ export const MobileMenu = () => {
         //   onClick={handleOpenNavMenu}
         color="inherit"
       >
-        <MenuIcon />
+        <IconMenu />
       </IconButton>
       <IconButton>
         <Logo />
