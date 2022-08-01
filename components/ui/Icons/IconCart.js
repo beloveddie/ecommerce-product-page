@@ -1,7 +1,6 @@
 import { IconButton, Tooltip } from "@mui/material";
-import React from "react";
 
-export const CartIcon = () => {
+export const IconCart = () => {
   return (
     <Tooltip title="View Cart">
       <IconButton>

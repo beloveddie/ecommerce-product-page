@@ -1,7 +1,7 @@
 import React from "react";
 import { Tooltip, IconButton, Avatar } from "@mui/material";
 
-export const ProfileIcon = () => {
+export const IconProfile = () => {
   return (
     <Tooltip title="Profile Icon">
       <IconButton sx={{ p: 0 }}>
