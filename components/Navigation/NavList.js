@@ -5,7 +5,7 @@ const NavList = ({ navLinks }) => {
   return (
     <ul>
       {navLinks.map((navLink) => (
-        <NavItem key={nanoid()} item={navLink} />
+        <NavItem key={nanoid()} navItem={navLink} />
       ))}
     </ul>
   );
