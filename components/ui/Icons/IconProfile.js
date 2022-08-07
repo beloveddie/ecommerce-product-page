@@ -1,4 +1,3 @@
-import React from "react";
 import { Tooltip, IconButton, Avatar } from "@mui/material";
 
 export const IconProfile = () => {
