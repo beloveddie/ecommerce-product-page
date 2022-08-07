@@ -7,9 +7,28 @@ import NavigateBeforeRoundedIcon from "@mui/icons-material/NavigateBeforeRounded
 export const MobileImageSlider = () => {
   return (
     <Box mt={4} position="relative">
+      {/* Image List */}
       <Box
-        height={350}
+        width={400}
+        height={400}
         sx={{
+          zIndex: -1,
+          display: { lg: "none", xs: "block" },
+        }}
+      >
+        <Image
+          src="/images/image-product-1.jpg"
+          alt="Product one"
+          layout="fill"
+          loading="lazy"
+        />
+      </Box>
+      <Box
+        width="100%"
+        height={400}
+        sx={{
+          position: "absolute",
+          top: 0,
           display: { lg: "none", xs: "flex" },
           flexDirection: "column",
           justifyContent: "center",
@@ -42,17 +61,6 @@ export const MobileImageSlider = () => {
             <NavigateNextRoundedIcon />
           </IconButton>
         </Stack>
-      </Box>
-
-      {/* Image List */}
-      <Box sx={{ position: "absolute", top: 0, zIndex: -1 }}>
-        <Image
-          src="/images/image-product-1.jpg"
-          alt="Product one"
-          width={500}
-          height={450}
-          loading="lazy"
-        />
       </Box>
     </Box>
   );
