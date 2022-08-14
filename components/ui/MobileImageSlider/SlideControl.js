@@ -5,12 +5,16 @@ import NavigateBeforeRoundedIcon from "@mui/icons-material/NavigateBeforeRounded
 
 export const SlideControl = () => {
   return (
-    <Box mt={4}>
+    <Box
+      width="100%"
+      mt={4}
+      position="absolute"
+      bgColor="primary.main"
+      top={0}
+      sx={{ height: { sm: 800, xs: 400 } }}
+    >
       <Box
-        width="100%"
-        height={400}
-        position="absolute"
-        top={0}
+        height="inherit"
         sx={{
           display: { lg: "none", xs: "flex" },
           flexDirection: "column",
