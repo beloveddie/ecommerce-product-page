@@ -7,7 +7,6 @@ export const AddToCart = () => {
     <Box
       width="100%"
       component="button"
-      justifyContent="center"
       my={2}
       sx={{
         "& svg": {
@@ -18,17 +17,20 @@ export const AddToCart = () => {
           fontWeight: 700,
         },
         backgroundColor: "primary.main",
-        p: 1,
+        p: 2,
         border: "none",
         borderRadius: 3,
       }}
     >
-      <IconButton>
-        <Stack direction="row" spacing={2} alignItems="center">
-          <ShoppingCartOutlinedIcon />
-          <Typography variant="h6">Add to cart</Typography>
-        </Stack>
-      </IconButton>
+      <Stack
+        direction="row"
+        spacing={2}
+        alignItems="center"
+        justifyContent="center"
+      >
+        <ShoppingCartOutlinedIcon />
+        <Typography variant="h6">Add to cart</Typography>
+      </Stack>
     </Box>
   );
 };
