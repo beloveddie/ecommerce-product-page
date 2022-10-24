@@ -1,13 +1,11 @@
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Button, Stack, Typography } from "@mui/material";
 import React from "react";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 export const AddToCart = () => {
   return (
-    <Box
-      width="100%"
-      component="button"
-      my={2}
+    <Button
+      fullWidth
       sx={{
         "& svg": {
           color: "secondary.main",
@@ -16,10 +14,15 @@ export const AddToCart = () => {
           color: "secondary.main",
           fontWeight: 700,
         },
+        "&:hover": {
+          bgcolor: "primary.main",
+          opacity: 0.6,
+        },
         backgroundColor: "primary.main",
         p: 2,
         border: "none",
         borderRadius: 3,
+        my: 2,
       }}
     >
       <Stack
@@ -29,8 +32,10 @@ export const AddToCart = () => {
         justifyContent="center"
       >
         <ShoppingCartOutlinedIcon />
-        <Typography variant="h6">Add to cart</Typography>
+        <Typography variant="h6" textTransform="none">
+          Add to cart
+        </Typography>
       </Stack>
-    </Box>
+    </Button>
   );
 };
