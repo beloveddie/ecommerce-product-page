@@ -6,7 +6,7 @@ export const SlideImage = () => {
   return (
     <Box
       sx={{
-        display: { lg: "none", xs: "block" },
+        display: { md: "none", xs: "block" },
       }}
     >
       <Image

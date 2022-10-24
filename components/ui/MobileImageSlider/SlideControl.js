@@ -16,7 +16,7 @@ export const SlideControl = () => {
       <Box
         height="inherit"
         sx={{
-          display: { lg: "none", xs: "flex" },
+          display: { md: "none", xs: "flex" },
           flexDirection: "column",
           justifyContent: "center",
         }}

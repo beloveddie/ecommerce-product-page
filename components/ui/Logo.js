@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "@mui/material/Link";
 
 export const Logo = () => {
