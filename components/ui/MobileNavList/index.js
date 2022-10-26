@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@mui/material";
 
-const NAV_LINKS = ["collections", "men", "women", "about", "contact"];
+export const NAV_LINKS = ["collections", "men", "women", "about", "contact"];
 
 export const MobileNavList = ({ showMenuBarHandler }) => {
   return (
