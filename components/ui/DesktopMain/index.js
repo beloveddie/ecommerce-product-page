@@ -7,9 +7,8 @@ const DesktopMain = () => {
     <Box
       sx={{
         display: "flex",
-        alignItems: "center",
         width: "100%",
-        height: "100vh",
+        mt: "10rem",
       }}
     >
       <Container>
