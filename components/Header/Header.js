@@ -14,7 +14,7 @@ const Header = () => {
           sx={{ display: "flex", justifyContent: "space-between" }}
         >
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
-            <Logo />
+              <Logo />
           </Box>
 
           <MobileMenu />
