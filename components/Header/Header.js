@@ -22,7 +22,12 @@ const Header = () => {
 
           <MobileMenu />
 
-          <Box sx={{ display: "flex" }}>
+          <Box
+            sx={{
+              display: "flex",
+              width: { md: "10rem" },
+            }}
+          >
             <Stack direction="row" spacing={2}>
               <IconCart />
               <IconProfile />
