@@ -1,9 +1,17 @@
 import * as React from "react";
-import { Container, Box, Stack, AppBar, Toolbar } from "@mui/material/";
+import {
+  Container,
+  Box,
+  Stack,
+  AppBar,
+  Toolbar,
+  IconButton,
+} from "@mui/material/";
 import { Logo } from "../ui/Logo";
 import { MobileMenu } from "../ui/MobileMenu";
 import { IconProfile } from "../ui/Icons/IconProfile";
 import { IconCart } from "../ui/Icons/IconCart";
+import DesktopNavList from "./../ui/DesktopNavList/index";
 
 const Header = () => {
   return (
