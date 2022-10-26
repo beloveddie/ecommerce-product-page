@@ -9,7 +9,10 @@ const Header = () => {
   return (
     <AppBar component="header" sx={{ backgroundColor: "neutral.white" }}>
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
+        <Toolbar
+          disableGutters
+          sx={{ display: "flex", justifyContent: "space-between" }}
+        >
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <Logo />
           </Box>
