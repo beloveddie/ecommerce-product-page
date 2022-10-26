@@ -1,5 +1,6 @@
 import { Box, Grid, Container } from "@mui/material";
 import React from "react";
+import LightBoxMainImage from "../../LightBoxMainImage";
 import { ProductDetail } from "../ProductDetail";
 
 const DesktopMain = () => {
@@ -12,9 +13,9 @@ const DesktopMain = () => {
       }}
     >
       <Container>
-        <Grid container spacing={5}>
-          <Grid item xs={6}>
-            LightBox coming soon
+        <Grid container justifyContent="center">
+          <Grid item xs={5}>
+            <LightBoxMainImage />
           </Grid>
           <Grid item xs={6}>
             <ProductDetail />
