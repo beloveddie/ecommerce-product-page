@@ -1,6 +1,5 @@
 import { Box, Grid, Container } from "@mui/material";
 import React from "react";
-import LightBoxMainImage from "../../LightBoxMainImage";
 import { ProductDetail } from "../ProductDetail";
 import DesktopImageCol from "./../DesktopImageCol/index";
 
