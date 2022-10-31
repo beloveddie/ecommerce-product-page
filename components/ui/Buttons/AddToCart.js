@@ -1,4 +1,4 @@
-import { Box, Button, Stack, Typography } from "@mui/material";
+import { Button, Stack, Typography } from "@mui/material";
 import React from "react";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
@@ -19,10 +19,10 @@ export const AddToCart = () => {
           opacity: 0.6,
         },
         backgroundColor: "primary.main",
-        p: 2,
+        height: "3rem",
         border: "none",
         borderRadius: 3,
-        my: 2,
+        my: { xs: 2 },
       }}
     >
       <Stack
