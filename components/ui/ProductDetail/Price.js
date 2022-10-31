@@ -4,7 +4,8 @@ import React from "react";
 export const Price = () => {
   return (
     <Stack
-      direction="row"
+      direction={{ xs: "row", md: "column" }}
+      spacing={1}
       justifyContent="space-between"
       sx={{
         "& h4": {
