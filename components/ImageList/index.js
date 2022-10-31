@@ -12,7 +12,7 @@ const imageData = [
 const CustomImageList = () => {
   return (
     <ImageList
-      sx={{ width: "100%" }}
+      sx={{ width: "100%", overflow: "hidden" }}
       cols={4}
       rowHeight={150}
       gap={20}
