@@ -8,7 +8,8 @@ export const CompanyTitle = () => {
       fontSize={16}
       fontWeight={700}
       color="primary.main"
-        letterSpacing={1}
+      letterSpacing={1}
+      mt={{ md: 8 }}
     >
       {"sneaker company".toUpperCase()}
     </Typography>
