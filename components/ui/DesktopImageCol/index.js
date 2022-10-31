@@ -7,7 +7,9 @@ const DesktopImageCol = () => {
   return (
     <Box>
       <LightBoxMainImage />
-      <CustomImageList />
+      <Box width="90%">
+        <CustomImageList />
+      </Box>
     </Box>
   );
 };
