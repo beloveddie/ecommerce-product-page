@@ -4,11 +4,11 @@ import { Box } from "@mui/material";
 
 const LightBoxMainImage = () => {
   return (
-    <Box sx={{cursor: "pointer"}}>
+    <Box sx={{ cursor: "pointer" }}>
       <CustomImage
         alt="LightBox Main Image"
         src="/images/image-product-1.jpg"
-        width="80%"
+        width="90%"
         height="95%"
       />
     </Box>

@@ -10,7 +10,7 @@ const imageData = [
 ];
 const CustomImageList = () => {
   return (
-    <ImageList sx={{ width: "80%" }} cols={4} rowHeight={150} gap={20}>
+    <ImageList sx={{ width: "90%" }} cols={4} rowHeight={150} gap={20}>
       {imageData.map((image) => (
         <ImageListItem key={image} sx={{ cursor: "pointer" }}>
           <CustomImage
