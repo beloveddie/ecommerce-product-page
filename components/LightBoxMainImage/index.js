@@ -9,7 +9,7 @@ const LightBoxMainImage = () => {
         alt="LightBox Main Image"
         src="/images/image-product-1.jpg"
         width="90%"
-        height="95%"
+        height="80%"
       />
     </Box>
   );
