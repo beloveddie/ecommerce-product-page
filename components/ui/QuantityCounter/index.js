@@ -6,17 +6,18 @@ import AddRoundedIcon from "@mui/icons-material/AddRounded";
 export const QuantityCounter = () => {
   return (
     <Stack
-      mt={3}
+      mt={{ xs: 3, md: 0 }}
       direction="row"
       justifyContent="space-between"
-      alignContent="center"
+      alignItems="center"
       sx={{
         "& svg": {
           color: "primary.main",
           fontSize: 20,
           fontWeight: 700,
         },
-        p: 2,
+        width: { md: "10rem", xs: "100%" },
+        height: "3rem",
         backgroundColor: "neutral.lightGrayishBlue",
         borderRadius: 3,
       }}
