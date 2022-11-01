@@ -10,17 +10,32 @@ const imageData = [
 ];
 
 const CustomImageList = () => {
+  // set the selected image using the index of the item on the image array
+  const [selectedImageIndex, setSelectedImageIndex] = React.useState(0);
+
   return (
     <ImageList
-      sx={{ width: "100%", overflow: "hidden" }}
+      sx={{ width: "100%", overflow: "hidden", mt: 3 }}
       cols={4}
-      rowHeight={150}
       gap={20}
-      bgcolor="red"
     >
-      {imageData.map((image) => (
-        <ImageListItem key={image} sx={{ cursor: "pointer" }}>
+      {imageData.map((image, index) => (
+        <ImageListItem
+          key={image}
+          sx={{
+            "&:hover": {
+              opacity: 0.5,
+            },
+            border: selectedImageIndex === index ? "3px solid #ff7d1a" : null,
+            borderRadius: "1.3rem",
+            cursor: "pointer",
+          }}
+          onClick={() => setSelectedImageIndex(index)}
+        >
           <CustomImage
+            sx={{
+              opacity: selectedImageIndex === index ? ".3" : null,
+            }}
             alt="Bottom Image"
             src={image}
             height="60%"
