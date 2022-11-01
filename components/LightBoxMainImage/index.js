@@ -8,8 +8,8 @@ const LightBoxMainImage = () => {
       <CustomImage
         alt="LightBox Main Image"
         src="/images/image-product-1.jpg"
-        width="90%"
-        height="80%"
+        width="100%"
+        height="100%"
       />
     </Box>
   );
