@@ -1,16 +1,18 @@
 import React from "react";
-import { Box } from "@mui/material";
+import { Grid } from "@mui/material";
 import LightBoxMainImage from "../../LightBoxMainImage";
 import CustomImageList from "../../ImageList";
 
 const DesktopImageCol = () => {
   return (
-    <Box>
-      <LightBoxMainImage />
-      <Box width="90%">
+    <Grid container justifyContent="center" height="85%" width="95%">
+      <Grid container height="25rem" justifyContent="center">
+        <LightBoxMainImage />
+      </Grid>
+      <Grid item>
         <CustomImageList />
-      </Box>
-    </Box>
+      </Grid>
+    </Grid>
   );
 };
 
