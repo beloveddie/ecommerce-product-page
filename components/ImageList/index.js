@@ -27,7 +27,7 @@ const CustomImageList = () => {
               opacity: 0.5,
             },
             border: selectedImageIndex === index ? "3px solid #ff7d1a" : null,
-            borderRadius: "1.3rem",
+            borderRadius: ".8rem",
             cursor: "pointer",
           }}
           onClick={() => setSelectedImageIndex(index)}

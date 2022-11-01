@@ -10,7 +10,7 @@ export const CustomImage = ({ src, alt, height, width, sx }) => (
     }}
   >
     <Image
-      sx={{ borderRadius: "1rem" }}
+      sx={{ borderRadius: ".6rem" }}
       src={src}
       height={height}
       width={width}
