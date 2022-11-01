@@ -11,7 +11,7 @@ const imageData = [
 
 const CustomImageList = () => {
   // set the selected image using the index of the item on the image array
-  const [selectedImageIndex, setSelectedImageIndex] = React.useState(0);
+  const [selectedImageIndex, setSelectedImageIndex] = React.useState(null);
 
   return (
     <ImageList
