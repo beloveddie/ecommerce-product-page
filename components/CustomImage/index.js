@@ -1,4 +1,3 @@
-// import Image from "mui-image";
 import Image from "mui-image";
 
 export const CustomImage = ({ src, alt, height, width }) => (
