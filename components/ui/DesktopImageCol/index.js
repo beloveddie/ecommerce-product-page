@@ -5,7 +5,7 @@ import CustomImageList from "../../ImageList";
 
 const DesktopImageCol = () => {
   return (
-    <Grid container justifyContent="center" height="85%" width="95%">
+    <Grid container justifyContent="center" height="85%" width="85%">
       <Grid container height="25rem" justifyContent="center">
         <LightBoxMainImage />
       </Grid>
